@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="title">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+        <div id="player">
+            <button id="b1" class="choice-btn">
+                <img src="rock 2.png" alt="Rock" class="choice-img">
+                Rock
+            </button>
+            <button id="b2" class="choice-btn">
+                <img src="paper 2.png" alt="Paper" class="choice-img">
+                Paper
+            </button>
+            <button id="b3" class="choice-btn">
+                <img src="scissors 2.png" alt="Scissors" class="choice-img">
+                Scissors
+            </button>
+        </div>
+        <div id="choices">
+            <div id="playerChoice">
+                <p id="pChoice">Your Choice</p>
+            </div>
+            <div id="Comp">
+                <p id="cChoice">Computer's Choice</p>
+            </div>
+        </div>
+        <div id="result">
+            <p id="p">Result</p>
+        </div>
+        <div id="scoreboard">
+            <div id="score">
+                <p>Score:</p>
+                <p id="p1">0</p>
+            </div>
+            <div id="games">
+                <p>Games played:</p>
+                <p id="p2">0</p>
+            </div>
+        </div>
+        <div id="reset">
+            <button id="b4" class="reset-btn">Reset</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

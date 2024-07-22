@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5), 0 0 10px rgba(255, 0, 255, 0.5);
+    text-align: center;
+    width: 350px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+#title h1 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ff00ff;
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.8), 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.choice-btn {
+    background-color: #222;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    color: #0ff;
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.8);
+    width: 80px;
+}
+
+.choice-btn:hover {
+    background-color: #333;
+    transform: translateY(-5px);
+}
+
+.choice-img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto 5px;
+}
+
+#choices {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#playerChoice, #Comp {
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #222;
+    transition: background-color 0.3s;
+}
+
+#playerChoice p, #Comp p {
+    margin: 0;
+    font-size: 1em;
+    color: #0ff;
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.8);
+}
+
+#result {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #222;
+    transition: background-color 0.3s;
+}
+
+#result p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #ff00ff;
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.8), 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#score, #games {
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #222;
+    transition: background-color 0.3s;
+}
+
+#score p, #games p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #0ff;
+    text-shadow: 0 0 5px rgba(0, 255, 255, 0.8);
+}
+
+.reset-btn {
+    background-color: #ff00ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.reset-btn:hover {
+    background-color: #ff33cc;
+    transform: translateY(-5px);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
