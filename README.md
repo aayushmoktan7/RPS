@@ -1,4 +1,5 @@
 Welcome to the Rock Paper Scissors Game! 🎮✨ Dive into the classic game experience with a modern twist, beautifully designed and easy to play. Here’s why you’ll love it:
+
 Features 🌟
 
     Simple & Fun Gameplay: Choose between Rock 🪨, Paper 📄, or Scissors ✂️ with a single click and compete against the computer.
